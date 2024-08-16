@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.wrapper {
+    /* height: 100vh;
+    width: 100vw; */
+    margin: 55px auto;
+    width: 1200px;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 98px;
+    height: 54px;
+    background-color: blueviolet;
+    color: white;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.navUl {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 40%;
+    list-style-type: none;
+}
+
+.navUl li {
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 20px;
+    color: #777C85;
+}
+
+#teamBorder {
+    border-bottom: 1px solid #4E5DC0;
+    color: #4E5DC0;
+    line-height: 2;
+}
+
+.navBtn {
+    width: 165px;
+    height: 54px;
+    border-radius: 5px;
+    background-color: #4E5DC0;
+    border: none;
+    color: white;
+}
+
+
+/* section 1 */
+
+section {
+    margin-top: 150px;
+    width: 100%;
+    display: flex;
+    /* height: 25rem; */
+    justify-content: space-between;
+}
+
+.secTeamHeading {
+    font-family: Roboto Flex;
+    font-size: 38px;
+    font-weight: 400;
+    line-height: 2;
+    border-bottom: 1px solid #00000080;
+    width: 250px;
+}
+
+.secTeamCodeHelp-summary {
+    width: 47%;
+}
+
+.secTeam-text {
+    margin-top: 20px;
+    width: 510px;
+    font-family: Raleway;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 34px;
+    color: #000000;
+}
+
+.secTeamCodeHelp-img {
+    width: 47%;
+    width: 570px;
+}
+
+.secTeamCodeHelp-img img {
+    width: 563px;
+    height: 427px;
+    border-radius: 30px;
+    object-fit: cover;
+}
+
+
+/* section 2 */
+
+.secFounder-img img {
+    width: 500px;
+    height: 480px;
+    border-radius: 30px;
+}
+
+.secFounder-text {
+    margin-top: 20px;
+    width: 405px;
+    font-family: Raleway;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 34px;
+    color: #000000;
+}
+
+
+/* Footer */
+
+footer {
+    margin-top: 150px;
+    width: 100%;
+}
+
+.footer-r1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-headings {
+    color: #4E5DC0;
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 3px;
+}
+
+.footer-summary {
+    color: #999999;
+    font-family: Manrope;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 32px;
+}
+
+#about-footer {
+    color: #4E5DC0;
+}
+
+.footer-r2 {
+    width: 457px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.foo-width {
+    width: 275px;
+}
+
+.pvc-w {
+    width: 150px;
+}
